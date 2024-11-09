@@ -16,6 +16,10 @@ app.get('/login',(req,res)=>{
   res.send('<h1>Please Login at chai aur code</h1>')
 })
 
+app.get('/GT650',(req,res)=>{
+  res.send('<h1>Tera bhai GT lega</h1>')
+})
+
 app.listen(PORT, () => {
   console.log(`Example app listening on port ${PORT}`)
 })
