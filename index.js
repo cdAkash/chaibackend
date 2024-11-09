@@ -17,7 +17,7 @@ app.get('/login',(req,res)=>{
 })
 
 app.get('/GT650',(req,res)=>{
-  res.send('<h1>Tera bhai GT lega</h1>')
+  res.send('<h1>Tera bhai GT650 lega aur sumit vi lega</h1>')
 })
 
 app.listen(PORT, () => {
